@@ -21,6 +21,7 @@ Route::get('{slug}', function($slug=""){
 Route::get('/', function(){
    
     $view = "finch::pages.home";
+    
     if (view()->exists($view)) {
         return view($view);
     }
