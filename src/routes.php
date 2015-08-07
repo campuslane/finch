@@ -6,11 +6,23 @@ Route::get('finch', function(){
 });
 
 // page route
-Route::get('{slug}', function($slug){
+Route::get('{slug}', function($slug=""){
+
+    $slug = $slug ?: 'home';
 
     $view = "finch::pages.$slug";
 
     if (view()->exists($view)) {
         return view($view);
     }
+});
+
+// default the root to home
+Route::get('/', function(){
+   
+    $view = "finch::pages.home";
+    if (view()->exists($view)) {
+        return view($view);
+    }
+
 });
