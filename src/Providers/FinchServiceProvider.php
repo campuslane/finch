@@ -2,6 +2,7 @@
 
 namespace Campuslane\Finch\Providers;
 
+use View;
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
 
@@ -55,6 +56,7 @@ class FinchServiceProvider extends ServiceProvider
     private function setViewLoading()
     {
         $this->loadViewsFrom(__DIR__.'/../Views', 'finch');
+        View::addLocation(realpath(base_path('finch')));
     }
 
     /**
