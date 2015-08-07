@@ -13,6 +13,7 @@
 </head>
 <body>
     <div class="container-fluid">
+    <a href="/" style="margin-top:30px; margin-right:100px;" class="pull-right">Site</a>
         <h1 style="display:inline-block; margin-right:40px;">Finch</h1>
         
         
