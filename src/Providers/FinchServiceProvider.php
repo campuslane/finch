@@ -65,12 +65,12 @@ class FinchServiceProvider extends ServiceProvider
     {
         // views
         $this->publishes([
-            __DIR__.'/../Views' => base_path('resources/views/campuslane/finch'),
+            __DIR__.'/../Views/pages' => base_path('finch/pages'),
         ]);
 
         // assets
         $this->publishes([
-            __DIR__.'/../Assets' => public_path('campuslane/finch'),
+            __DIR__.'/../Assets' => public_path('finch'),
         ], 'public');
     }
 

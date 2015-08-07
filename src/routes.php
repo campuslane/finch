@@ -10,7 +10,7 @@ Route::get('{slug}', function($slug=""){
 
     $slug = $slug ?: 'home';
 
-    $view = "finch::pages.$slug";
+    $view = "pages.$slug";
 
     if (view()->exists($view)) {
         return view($view);
@@ -20,7 +20,7 @@ Route::get('{slug}', function($slug=""){
 // default the root to home
 Route::get('/', function(){
    
-    $view = "finch::pages.home";
+    $view = "pages.home";
     
     if (view()->exists($view)) {
         return view($view);
