@@ -4,5 +4,6 @@
 
 @section('content')
     <h2>Welcome to Finch</h2>
-    <p>Ready to Go...</p>
+    <p>At this initial stage Finch is just acting as a central location for layouts, etc. that 
+    can be used by Finch packages.  You will be able to add pages, etc.</p>
 @endsection
