@@ -50,6 +50,7 @@ class FinchServiceProvider extends ServiceProvider
 
     /**
      * Set the View Loading Path & Name
+     * @return  void
      */
     private function setViewLoading()
     {
@@ -58,6 +59,7 @@ class FinchServiceProvider extends ServiceProvider
 
     /**
      * Set the Package Publishing
+     * @return  void
      */
     private function setPublishers()
     {
@@ -75,6 +77,7 @@ class FinchServiceProvider extends ServiceProvider
 
     /**
      * Set Finch Aliases
+     * @return  void
      */
     private function setAliases()
     {
