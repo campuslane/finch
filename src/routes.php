@@ -2,5 +2,5 @@
 
 // initial finch route
 Route::get('finch', function(){
-    return 'finch!';
+    return view('finch::welcome');
 });
