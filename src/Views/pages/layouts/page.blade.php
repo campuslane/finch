@@ -13,11 +13,14 @@
 </head>
 <body>
     <div class="container-fluid">
-        <h1 style="display:inline-block; margin-right:40px;">Page (Front End)</h1>
-        
-        
+        <h1 style="display:inline-block; margin-right:40px;">My Site</h1>
     </div>
     <hr>
+
+    <div class="container">
+        <a href="/">Home</a> | <a href="/about">About</a>
+    </div>
+
     <div class="container">
         @yield('content')
     </div>
