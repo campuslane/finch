@@ -1,0 +1,16 @@
+{
+    "name": "campuslane/finch",
+    "homepage": "https://github.com/campuslane/finch",
+    "description": "Base site builder",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.5.0",
+        "illuminate/support": "^5.1"
+    },
+    
+    "autoload": {
+        "psr-4": {
+            "Campuslane\\Finch\\": "src/"
+        }
+    }
+}
