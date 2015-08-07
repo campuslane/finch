@@ -20,6 +20,10 @@
     </div>
     <hr>
     <div class="container">
+        <a href="/finch">Dashboard</a> | <a href="/blog">Blog</a> | <a href="/scaffold">Scaffold</a>
+    </div>
+    <hr>
+    <div class="container">
         @yield('content')
     </div>
 

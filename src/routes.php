@@ -5,6 +5,7 @@ Route::get('finch', function(){
     return view('finch::welcome');
 });
 
+
 // page route
 Route::get('{slug}', function($slug=""){
 

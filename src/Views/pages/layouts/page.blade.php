@@ -13,6 +13,7 @@
 </head>
 <body>
     <div class="container-fluid">
+        <a href="/finch" style="margin-top:30px; margin-right:100px;" class="pull-right">Finch</a>
         <h1 style="display:inline-block; margin-right:40px;">My Site</h1>
     </div>
     <hr>

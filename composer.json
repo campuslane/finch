@@ -1,6 +1,6 @@
 {
-    "name": "campuslane/finch",
-    "homepage": "https://github.com/campuslane/finch",
+    "name": "campuslane/blog",
+    "homepage": "https://github.com/campuslane/blog",
     "license": "MIT",
     "require": {
         "php": ">=5.5.0",
@@ -9,7 +9,7 @@
     
     "autoload": {
         "psr-4": {
-            "Campuslane\\Finch\\": "src/"
+            "Campuslane\\Blog\\": "src/"
         }
     }
 }
