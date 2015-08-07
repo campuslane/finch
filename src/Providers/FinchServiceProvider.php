@@ -63,7 +63,6 @@ class FinchServiceProvider extends ServiceProvider
      */
     private function setPublishers()
     {
-
         // views
         $this->publishes([
             __DIR__.'/../Views' => base_path('resources/views/campuslane/finch'),
